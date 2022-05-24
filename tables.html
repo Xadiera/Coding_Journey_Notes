@@ -11,12 +11,17 @@
   <body>
     <h1>Tables!</h1>
     <table>
-      <<tr>
+      <caption>List of Stoutest Living Single-Trunk Trees by Species</caption>
+      <!-- Caption must be the first child within the table brackets-->
+      <thead>
+      <tr>
         <th>Species</th>
         <th>Diameter Meters</th>
         <th>Diameter Feet</th>
         <th>Tree Name</th>
       </tr>
+      </thead>
+      <tbody>
       <tr>
         <td>Montezume Cypress</td>
         <td>11.62</td>
@@ -41,6 +46,14 @@
         <td>29.0</td>
         <td>General Grant</td>
       </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>Average Diameter</td>
+          <td>10.0</td>
+          <td>32.8</td>
+        </tr>
+      </tfoot>
     </table>
   </body>
 
